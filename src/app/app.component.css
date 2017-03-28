@@ -1,0 +1,40 @@
+footer {
+    margin-top: 40px;
+}
+
+nav {
+    margin: 5px auto;
+    background: #121;
+    padding: 4px;
+}
+
+ul {
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    padding-right: 8px;
+    border-right: 1px solid #CACACA;
+}
+
+a, a:link, a:hover, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    padding: 8px;
+    font-size: 0.5rem;
+    color: white;
+    background-color: #563211;
+}
