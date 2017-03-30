@@ -1,15 +1,17 @@
 <nav>
-    <ul>
-        <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
-        <li><a routerLink="/child" routerLinkActive="active">Child</a></li>
-        <li><a routerLink="/childTwo" routerLinkActive="active">Child 2</a></li>
-        <li><a routerLink="/nothing" routerLinkActive="active">Nothing</a></li>
-    </ul>
+  <ul>
+    <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+    <li><a routerLink="/child" routerLinkActive="active">Child</a></li>
+    <li><a routerLink="/child-two" routerLinkActive="active">Child Two</a></li>
+    <li><a routerLink="/people/1" routerLinkActive="active">Person 1</a></li>
+    <li><a routerLink="/people/2" routerLinkActive="active">Person 2</a></li>
+    <li><a routerLink="/nothing" routerLinkActive="active">Nothing</a></li>
+  </ul>
 </nav>
 
 <router-outlet></router-outlet>
 
 <footer>
-    <p>Url path accessed by the location service is: {{currentLocationUrl}}</p>
-    <p>Url path accessed by the router service is: {{currentRouterUrl}}</p>
+  <p>Url path accessed by the location service is: {{locationUrl}}</p>
+  <p>Url path accessed by the router service is {{routerUrl}}</p>
 </footer>

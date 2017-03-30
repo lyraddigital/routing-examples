@@ -8,7 +8,7 @@ nav {
     padding: 4px;
 }
 
-ul {
+nav ul {
     padding: 0;
     display: inline-block;
     margin: 0;
@@ -17,10 +17,10 @@ ul {
 nav li {
     display: inline;
     padding-right: 8px;
-    border-right: 1px solid #CACACA;
+    border-right: 3px solid #CACACA;
 }
 
-a, a:link, a:hover, a:visited, a:active {
+a, a:link, a:visited, a:active, a:hover {
     color: white;
     text-decoration: none;
     display: inline-block;
@@ -32,7 +32,7 @@ a.active {
     text-decoration: underline;
 }
 
-p {
+footer p {
     padding: 8px;
     font-size: 0.5rem;
     color: white;
